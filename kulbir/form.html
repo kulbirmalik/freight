@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+<style>
+
+.cont{
+      
+      text-align: center;
+      width: 456px;
+      height: 652px;
+      background-color:white;
+      margin-left: 400px;
+      margin-bottom: 100px;
+      margin-right: 100px;
+      margin-top: 300px;
+      
+}
+
+
+</style>
+</head>
+<body background="back.jpg">
+  <div class="cont">
+    <img src="truck.jpg" height="200" width="180">
+    <br>
+    <br>
+    <form action="index.php" method="post">
+      Email Address<br>
+      <input type="text" name="firstname" placeholder="Email" id="name" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+      <br>
+      <br>
+      Password<br>
+      <input type="password" name="password" id="pass" class="form-control" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+      <br>
+      <br>
+      <input type="checkbox" name="name">&nbsp;Remember Me
+      <br>
+      <br>
+      <input type="submit" class="btn btn-outline-danger" value="Sign In" class="form-control">
+      <br>
+      <br>
+      <a href="register.html"> Sign Up(NEW USER) </a>
+    </form>
+  </div>
+  <script type="text/javascript">
+    function a()
+    {
+      var xmlhttp;
+      xmlhttp = newXMLhttpRequset();
+      xmlhttp.open("GET,insert.php?name="+document.getElementBYId("name").value+"$pass="+document.getElementBYId("pass").value);
+      xmlhttp.send(null);
+    }
+  </script>
+</body>
+</html>

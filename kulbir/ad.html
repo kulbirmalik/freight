@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <style type="text/css">
+     nav {
+        overflow: hidden;
+      }
+      nav a{
+        float: left;
+        display: block;
+        color:#9b9b8b;
+        padding: 4px 8px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        text-decoration: none;
+        font-size: 17px;
+        /* border-bottom: 3px solid transparent; */
+      }
+      .ab{
+        display: block;
+        color:#9b9b8b;
+        /* text-align: center; */
+        padding: 4px 8px;
+        /* padding-left: 4px; */
+        padding-bottom: 0px;
+        text-decoration: none;
+        font-size: 17px;
+        border-bottom: 3px solid transparent;
+      }
+      nav a.active {
+        border-bottom: 3px solid #ed505d;
+        color: red;
+        font-size:20px;
+      }
+      .f1{
+      	display:inline;
+        margin: 2px 20px;
+      	border: 1px solid black;
+        padding: 10px;
+      	background-color: lightgrey;
+      }
+      .row{
+        /* margin: 0px px; */
+        padding-bottom:10px;
+        background-color:white;
+      }
+      input[type=text]{
+        /* width: 150px; */
+        height:27px;
+        border: 1px solid black;
+      }
+      input[type=text]:hover{
+        border: 2px solid red;
+      }
+      .jumbrotron {
+      	background-image: url('backg.jpg');
+      	background-size: cover;
+      	background-repeat: no-repeat;
+        margin-top: 0px;
+      }
+      .btn{
+        /* width: 200px; */
+      }
+      .select{
+        height:27px;
+      }
+      .navbar-collapse{
+
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-toggleable-sm mb-0 navbar-inverse">
+
+      <div class="container">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <div class="navbar-nav">
+            <a href="#trunkpool"><i class="fa fa-chrome py-2"></i></a>
+            <a href="#home" class="active">Book vehicles</a>
+          </div>
+         </div>
+        </div>
+      </nav>
+
+    <div class="jumbrotron jumbrotron-fluid mt-0" style="height: 500px;">
+      <div class="container justify-content-left"  >
+        <h3 class="display-4 bg-text">BOOK A VEHICLE</h3>
+        <p class="display-6 bg-text">Booking a vehicle on Goods Carrier is as easy as it gets. <br> <br>Select an origin and a destination and <br> how many vechiles required and the date <br>then book a vechile by just a single click.</p><br><br>
+          <form method="post" action="book.php">
+                From  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="fromm" style="border-radius:2px;" placeholder="  From Location" required="required"><br>
+                <br>
+                To   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="too" style="border-radius:2px;" placeholder="  To Location" required="required"><br>
+                <br>
+                Type  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="truck" value="truck" placeholder=" Select" class="text-muted">
+                  <option value="0">Select</option>
+                  <option value="Semi-Trailer">Semi-Trailer</option>
+                  <option value="Straight Truck">Straight Truck</option>
+                  <option value="Jumbo Trailer Truck">Jumbo Trailer Truck</option>
+                  <option value="Tail Lift Truck">Tail Lift Truck</option>
+                  <option value="Truck Tailer">Truck Tailer</option>
+                  <option value="Flatbed Truck">Flatbed Truck</option>
+                  <option value="Lowboy Trailer">Lowboy Trailer</option>
+                  <option value="Refgirated Trailers">Refgirated Trailers</option>
+                  <option value="Tanker Truck">Tanker Truck</option>
+                </select><br>
+                <br>
+                Vechile No. &nbsp;&nbsp;
+                <input type="text" name="tnum" style="border-radius:2px;" placeholder="Vechile No." required="required" ><br>
+                <br>
+                Date &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="date" name="bdate" style="border-radius:2px;" required="required">
+                <br>
+              <br>
+                <button class="btn btn-danger mt-4" type="submit" value="Confirm" style="height=27px;">&nbsp;&nbsp;Confirm</button>
+            </form>
+          </div>
+     </div><br>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

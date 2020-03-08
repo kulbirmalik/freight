@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+
+  <title></title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+
+	.div{
+		display:block;
+	}
+
+	.col-6{
+		width:380px;
+	}
+
+	.col-6.b{
+		width:408px; 
+
+	}
+
+	.col-12{
+		width: 788px;
+	}
+
+	.modal-body{
+		padding: 0px;
+	}
+
+	.container-fluid{
+		padding: 0px;
+	}
+ 
+
+
+      .modal-content{
+      width: 788px;
+  height: 498px;
+  border-radius: 4px;
+  background-color: #ffffff;
+    }
+
+.accptbook{
+     width: 142px;
+  height: 24px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: rgba(0, 0, 0, 0.6);
+  padding-left: 20px;
+  padding-top: : 20px;
+  padding-bottom: 18px;
+  white-space: nowrap;
+
+}
+
+.line{
+	width: 356px;
+  height: 20px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: 0.2px;
+  color: rgba(0, 0, 0, 0.87);
+  padding-left: 20px;
+  padding-bottom: 24px;
+}
+
+.ba{
+	width: 220px;
+  height: 16px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.6);
+  padding-left: 20px;
+  padding-right:168px 
+  padding-top:24px;
+  padding-bottom: 0px;
+}
+
+.ba1{
+	width: 220px;
+  height: 16px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.6);
+  padding-right:106px 
+  padding-top:168px;
+  padding-bottom: 0px;
+
+}
+
+.bb1{
+	width: 76px;
+  height: 28px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.87);
+  padding-left: 20px;
+  padding-right: 312px;
+}
+
+.bb2{
+	width: 76px;
+  height: 28px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.87);
+  padding-right:305px;
+}
+
+.bc1{
+	width: 360px;
+  height: 32px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.6);
+   padding-left: 20px;
+  padding-right: 28px;
+
+}
+
+.bc2{
+	width: 360px;
+  height: 32px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.6);
+  padding-right: 20px;
+
+}
+
+
+.bta1{
+	width: 220px;
+  height: 16px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.6);
+  padding-left: 20px;
+  margin-top: 40px;
+}
+.bta2{
+	width: 220px;
+  height: 16px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 40px;
+}
+.btb1{
+	width: 220px;
+  height: 16px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.6);
+  padding-left: 20px;
+  margin-top: 24px;
+}
+
+.bt{
+	width: 220px;
+  height: 16px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.tta1{
+	width: 220px;
+  height: 28px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.87);
+  padding-left: 20px;
+}
+.tt{
+	width: 220px;
+  height: 28px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.87);
+
+}
+
+
+.btn1{
+	width: 171px;
+  height: 36px;
+  background-color: #f26066;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 16px;
+}
+
+.btn2{
+	width: 167px;
+  height: 36px;
+  border: solid 1px rgba(0, 0, 0, 0.12);
+  background-color: rgba(98, 2, 238, 0);
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 16px;
+
+}
+.btntxt1{
+	width: 139px;
+  height: 16px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.btntxt2{
+	width: 135px;
+  height: 16px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.p1{
+	margin-bottom:  0px;
+	margin-top: -5px;
+}
+
+.p11{
+	margin-bottom:  0px;
+	margin-top: 20px;
+
+}
+
+.p12{
+	margin-top: 18px;
+}
+ 
+.p2{
+	margin-left:20px;
+} 
+
+.p3{
+	margin-left: 187px;
+}
+
+.row{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.p22{
+	margin-top: -8px;
+	margin-bottom: 0px;
+}
+
+.p23{
+	margin-top: -24px;
+	margin-bottom: -3px;
+}
+
+.bbbb{
+  text-align:center;
+}
+
+</style>
+</head>
+<body>
+  <br>
+  <br>
+<div class="container ">
+      <div class="row">
+    	<div class="col-12">
+    <p class="line p12">Please confirm the following details to book the vechile </p>
+    </div>
+    </div>
+    <br>
+    <div class="row">
+    	<div class="col-6">
+        <p class="ba p1">FROM</p>
+        <p class="bb1 p1">BENGALURU</p>
+        <p  class="bc1 p1" >Wework,43,Residency Rd,Shanthala Nagar,Ashok Nagar,Bengaluru,Karnataka 560025</p>
+    </div>
+    <div class="col-6 b">
+        <p class="ba1 p1">TO</p>
+        <p class="bb2 p1">GURUGRAM</p>
+        <p class="bc2 p1" >Trunkpool,DLF City Court,#222,second floor,Near Sikanderpur Metro Station,Sector 24,Gurugram,Haryana 122002</p>
+    </div>
+    </div>
+  <br>
+  <br>
+  <div class="row">
+    <div class="col-lg-6">
+    <p class="bta1 p22">BOOKING TIME</p>
+    <p class="tta1 p1">12:30 PM,TODAY</p>
+  </div>
+  <div class="col-lg-6 b">
+    <p class="bta2 p1">LOADING TIME</p>
+    <p class="tt p1">8:00 PM,TODAY</p>
+  </div>
+</div>
+<br>
+<br>
+<div class="row">
+  <div class="col-6">
+    <p class="btb1 p23">RATE</p>
+    <p class="tta1 p1"> <i style="font-size:16px" class="fa">&#xf156;</i>45000</p>
+  </div>
+  <div class="col-6 b">
+      <p class="bt p23">VECHILE TYPE</p>
+      <h4 class="tt p1">21F/9T</h4>
+  </div>
+  </div>
+  <br>
+  <div class="row">
+  	<div class="col-6">
+      <p class="btb1 p1">VECHILE NUMBER</p>
+      <p class="tta1 p1">KA 7 JW 6475</p>
+  </div>
+  <div class="col-6 b">
+      <p class="bt p1">DRIVER PHONE NUMBER</p>
+      <p class="tt p1">+919876543210</p>
+  </div>
+  </div>
+  
+  </div>
+        </div>
+        <br>
+        <br>
+      <div class="bbbb">
+        <form action="final.php">
+        <button class="btn btn1 p3"><p class="btntxt1">CONFIRM</p></button>
+      </form>
+      </div>
+      </div>
+      <br>
+    </div>
+  </div>
+</div>
+
+
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+  </html>

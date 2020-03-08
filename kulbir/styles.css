@@ -1,0 +1,585 @@
+.nav-link{
+	padding: 0px;
+}
+a.nav-link.bar{
+	padding: 0px!important;
+}
+div.col-md-12.col-lg-6{
+	padding: 0;
+}
+div.col-md-6.col-lg-2{
+	padding: 0px;
+	align-content: center;
+}
+div.col-lg-2{
+	padding: 0px;
+}
+div.col-lg-3{
+	padding:0px;
+}
+.TrunkPool{
+  width: 89px;
+  height: 19px!important;
+  /*font-family: Montserrat;*/
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #ef6a6e;
+  margin-top: 27px;
+}
+.Book{
+  width: 140px;
+  height: 16px;
+  /*font-family: Lato;*/
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #f26066;
+  margin-top: 27px;
+}
+.Find{
+	width: 120px;
+  height: 16px;
+  /*font-family: Lato;*/
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #f26066;
+	margin-top: 27px;
+}
+.Bussiness{
+	width: 90px;
+  height: 16px;
+  /*font-family: Lato;*/
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #f26066;
+	margin-top: 27px;
+}
+.How{
+	width: 150px;
+  height: 16px;
+  /*font-family: Lato;*/
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #f26066;
+	margin-top: 27px;
+}
+.About{
+	width: 110px;
+  height: 16px;
+  /*font-family: Lato;*/
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #f26066;
+	margin-top: 27px;
+}
+.In{
+	width: 92px;
+  height: 36px;
+  margin-top: 18px;
+  margin-left: 284px;
+  border: 1px solid #f26066;
+  border-radius: 4px;
+}
+.Out{
+	width: 92px;
+  height: 36px;
+  margin-top: 18px;
+  background: transparent;
+  margin-left: 12px;
+  border: 1px solid #f26066;
+  border-radius: 4px;
+}
+p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 0px;
+    margin:0px;
+}
+p.Button-text{
+	width: 60px;
+  height: 16px;
+  /*font-family: Lato;*/
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px;
+}
+p.Button-text2{
+	width: 60px;
+  height: 16px;
+  /*font-family: Lato;*/
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #ffffff;
+  white-space: nowrap;
+  margin: 0px;
+  color:#f26066;
+}
+.First{
+	background-image: url(img/fold-1-bg.png);
+	object-fit: contain;
+}
+.Manage{
+  /*width: 41.5%;*/
+  /*font-family: Lato;*/
+  font-size: 50px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  margin-top: 73px;
+}
+.Provides{
+  /*width: 38%;*/
+  height: 76px;
+  /*font-family: Lato;*/
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.Bookav{
+  width: 11.5%;
+  height: 56px;
+  background-color: #f26066;
+  margin-top: 41px;
+}
+p.text{
+	width: 9%;
+  height: 16px;
+  /*font-family: Lato;*/
+  font-size: 12px;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #ffffff;
+  white-space: nowrap;
+}
+.Learn{
+  width: 14.5%;
+  height: 56px;
+  margin-left: 20px;
+  margin-top: 41px;
+  margin-bottom: 68px;
+}
+.Second{
+	/*height: 640px;*/
+  object-fit: contain;
+  background-image: url(img/fold-2-bg.png);
+}
+.Bookav2{
+  width: 19%;
+  height: 39px;
+  /*font-family: Lato;*/
+  font-size: 26px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.87);
+  white-space: nowrap;
+  margin-top: 98px;
+}
+.Booking{
+  /*width: 38%;*/
+  /*height: 112px;*/
+  /*font-family: Lato;*/
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: 0.24px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: 16px;
+}
+.form{
+  width: 100%;
+  /*height: 120px;*/
+  border-radius: 10px;
+  box-shadow: 0 0 54px 0 rgba(163, 163, 163, 0.5);
+  background-color: #ffffff;
+  margin-top: 73px;
+  margin-bottom: 176px;
+  padding-top: 20px;
+  /*padding-bottom: 40px;*/
+}
+.Third{
+  /*height: 584px;*/
+  box-shadow: 0 0 54px 0 rgba(163, 163, 163, 0.5);
+  background-color: #212121;
+  /*display: inline-block;*/
+}
+.figure{
+	margin-top: 102px;
+}
+.getL{
+  width: 12%;
+  height: 39px;
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: #ffffff;
+  white-space: nowrap;
+  margin-top: 114px;
+}
+.someT{
+  /*width: 31%;*/
+  height: 112px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: 0.24px;
+  color: #ffffff;
+  margin-top: 32px;
+}
+.Benifits{
+  width: 27%;
+  height: 39px;
+  /*font-family: Lato;*/
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.23px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+  white-space: nowrap;
+  /*margin: auto;*/
+  margin-top: 80px;
+}
+.SignUp{
+	margin-top: 52px;
+	margin-bottom: 179px;
+}
+.img1{
+  width: 38px;
+  height: 45px;
+  object-fit: contain;
+  margin-top: 72px;
+  padding: 0px;
+ /* background-color: #ef6a6e;*/
+}
+.img2{
+  width: 56px;
+  height: 41px;
+  object-fit: contain;
+  margin-top: 72px;
+  padding: 0px;
+}
+.img3{
+  width: 35px;
+  height: 45px;
+  object-fit: contain;
+  margin-top: 72px;
+  padding: 0px;
+}
+.ForC{
+  width: 17%;
+  height: 39px;
+  /*font-family: Lato;*/
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 3px;
+  color: rgba(0, 0, 0, 0.87);
+  white-space: nowrap;
+  padding: 0px;
+  margin-top: 19px;
+}
+.Book-Vehicles{
+  /*width: 25%;*/
+  height: 112px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: 0.24px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: 19px;
+}
+.LearnM{
+  width: 134px;
+  height: 36px;
+  border: solid 1px rgba(0, 0, 0, 0.12);
+  background-color: rgba(98, 2, 238, 0);
+  /*margin-bottom: 120px;*/
+  margin-top: 26px;
+}
+.Learn-More{
+  width: 102px;
+  height: 16px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #de001c;
+  white-space: nowrap;
+}
+p.Learn-More{
+	padding-left: 10px;
+}
+.Fourth{
+	background-color: white;
+}
+.Fifth{
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(163, 163, 163, 0.5);
+  background-color: #f6f6f6;
+  margin-top: 120px;
+}
+.Client{
+  width: 128px;
+  height: 39px;
+  /*font-family: Lato;*/
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.23px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: 74px;
+}
+.Client-test{
+  width: 80%;
+  height: 196px;
+  /*font-family: Lato;*/
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: 0.24px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: 50px;
+}
+.figure2{
+  width: 172px;
+  height: 172px;
+  box-shadow: 0 14px 19px 0 rgba(71, 69, 69, 0.25);
+  border-style: solid;
+  border-width: 1.6px;
+  border-image-source: linear-gradient(to bottom, #f3f3f3, rgba(227, 227, 227, 0));
+  border-image-slice: 1;
+  background-color: #ffffff;
+  margin-top: 152px;
+  margin-left: 100px;
+}
+.Client-Name{
+  width: 172px;
+  height: 24px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.24px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+  /*margin-left: 100px;*/
+  margin-top: 35px;
+  margin-bottom: 101px;
+}
+.arrow1{
+	width: 24px;
+    height: 24px;
+    object-fit: contain;
+	margin-top: 35px;
+	margin-left: 80px;
+}
+.arrow2{
+	width: 24px;
+	height: 24px;
+	object-fit: contain;
+	margin-top: 35px;
+}
+.Last{
+  width: 100%;
+  /*height: 148px;*/
+  background-color: #212121;
+}
+.foot{
+  width: 140px;
+  height: 48px;
+  margin-top: 26px;
+  padding-left: 0pc;
+}
+.AboutU{
+  width: 80px;
+  height: 16px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #f26066;
+}
+.Zen{
+  width: 172px;
+  height: 16px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #f26066;
+  margin-top: 40px;
+}
+.ContUs{
+  width: 120px;
+  height: 48px;
+  padding-left: 0px;
+}
+.Contact-Us{
+  width: 74px;
+  height: 16px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #f26066;
+}
+.TrunkL{
+  width: 89px;
+  height: 19px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.19px;
+  color: #ef6a6e;
+}
+.from-form{
+  width: 109px;
+  height: 15px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.38px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.from-inp{
+  width: 85.5%;
+  height: 48px;
+  border: solid 1px rgba(0, 0, 0, 0.32);
+  margin-bottom: 40px;
+}
+.to-form{
+  width: 137px;
+  height: 15px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.38px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.type-form{
+  width: 137px;
+  height: 15px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.38px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.Search{
+  width: 70%;
+  height: 56px;
+  background-color: #f26066;
+  margin-top: 12px;
+}
+.search_24px {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
